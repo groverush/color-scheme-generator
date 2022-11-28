@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #000;
+}
+.container {
+  max-width: 550px;
+  min-height: 550px;
+  margin: 7vh auto;
+  display: grid;
+  grid-template: 1fr 5fr 0.75fr / 1fr;
+
+  border-radius: 1em;
+}
+.navbar {
+  background-color: #1f2937;
+  display: flex;
+  padding: 1.5em 0.45em;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0.95em 0.95em 0 0;
+}
+.navbar > input,
+.navbar > select,
+.navbar > button {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+.navbar > input {
+  border: 2px solid #d1d5db;
+}
+.navbar > select {
+  width: 55%;
+  font-size: 1rem;
+  text-indent: 0.25em;
+  background-color: transparent;
+  color: #fff;
+  background: #1f293a;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.navbar > button {
+  color: #fff;
+  background-color: #3d4b60;
+  font-size: 0.75rem;
+  padding: 0.25em 1em;
+  border: none;
+  border-radius: 0.25em;
+}
+.navbar > button:hover,
+.navbar > button:focus {
+  opacity: 0.8;
+}
+
+.colors-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.colors-hex {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  color: #d5d4d8;
+  background: #1f2937;
+  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 0 0 0.95em 0.95em;
+}

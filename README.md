@@ -1,4 +1,4 @@
 # color-scheme-generator
 This is my color scheme generator. An individual project of the "working with APIs" module on Scrimba.
-Looking forward for your feedback
-https://color-schema.netlify.app/
+I would appreciate your input and constructive criticism.
+DEMO: https://color-schema.netlify.app/
